@@ -8,8 +8,8 @@ lerna-debug.log*
 .pnpm-debug.log*
 
 # Atifacts
-/tests/artifacts
-/contracts/artifacts
+.tests/artifacts/
+.contracts/artifacts/
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
@@ -53,7 +53,6 @@ web_modules/
 *.tsbuildinfo
 
 # Optional npm cache directory
-.deps
 .npm
 
 # Optional eslint cache
